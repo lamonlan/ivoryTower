@@ -1,0 +1,60 @@
+@import "./reset.scss";
+@import "./theme.scss";
+
+@font-face {
+	font-family: HarmonyOS;
+	src: url("../font/HarmonyOS.ttf");
+	font-display: auto;
+}
+
+* {
+	&::-webkit-scrollbar {
+		width: 5px;
+		height: 5px;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		background-color: var(--scroll-thumb-color);
+		&:hover {
+			background-color: var(--scroll-thumb-color-hover);
+		}
+	}
+	&::-webkit-scrollbar-track {
+		background: var(--scroll-track-color);
+		border-radius: 5px;
+	}
+}
+
+body {
+	font: 1rem/1 HarmonyOS;
+	word-break: break-all;
+	color: var(--color-text);
+	background-color: var(--color-body);
+}
+
+a {
+	color: var(--color-text);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+@media screen and (max-width: 991.9px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 16px;
+	}
+}

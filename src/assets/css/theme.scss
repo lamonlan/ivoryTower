@@ -1,0 +1,14 @@
+body {
+	--header-background: #ffffff;
+	--custom-border: #e5e6ea;
+	--scroll-thumb-color: #c0c0c0;
+	--scroll-thumb-color-hover: #a7a7a7;
+	--scroll-track-color: #f1f1f1;
+}
+body[ivory-tower-theme="dark"] {
+	--header-background: #282829;
+	--custom-border: #333335;
+	--scroll-thumb-color: #686868;
+	--scroll-thumb-color-hover: #7a7a7a;
+	--scroll-track-color: #444;
+}
