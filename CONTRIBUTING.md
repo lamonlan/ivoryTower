@@ -2,6 +2,11 @@
 
 遵循 vue 官网的风格指南 https://v3.cn.vuejs.org/style-guide/#%E8%A7%84%E5%88%99%E7%B1%BB%E5%88%AB
 
+## 设计&&原型
+
+- [设计 - figma](https://www.figma.com/file/7xDdnU39l5jzIn08Aaf4vW/ivoryTower2.0)
+- [原型 - figma](https://www.figma.com/proto/7xDdnU39l5jzIn08Aaf4vW/ivoryTower2.0?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A4&show-proto-sidebar=1)
+
 ## CSS 指南
 
 ### css 统一使用 scoped、遵守 BEM 命名规范。
