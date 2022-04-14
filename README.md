@@ -22,10 +22,18 @@ yarn dev
 
 ```sh
 npm run build
+
+or
+
+yarn [run] build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+
+or
+
+yarn [run] lint
 ```
