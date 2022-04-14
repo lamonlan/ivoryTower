@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <var-button type="primary">首页</var-button>
+	<var-button type="primary">Group</var-button>
 </template>
 
 <style scoped lang="scss">
-@import "./home.scss";
+@import "./group.scss";
 </style>

@@ -8,24 +8,24 @@ const { VarletUIResolver } = require("unplugin-vue-components/resolvers");
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueJsx(),
-    components({
-      resolvers: [VarletUIResolver()],
-    }),
-  ],
-  resolve: {
-    alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url)),
-    },
-  },
-  server: {
-    port: 6800,
-    host: "0.0.0.0",
-    open: true,
-    proxy: {
-      "/api": "http://xxx.xxx.com/",
-    },
-  },
+	plugins: [
+		vue(),
+		vueJsx(),
+		components({
+			resolvers: [VarletUIResolver()],
+		}),
+	],
+	resolve: {
+		alias: {
+			"@": fileURLToPath(new URL("./src", import.meta.url)),
+		},
+	},
+	server: {
+		port: 6800,
+		host: "0.0.0.0",
+		open: true,
+		proxy: {
+			"/api": "http://xxx.xxx.com/",
+		},
+	},
 });

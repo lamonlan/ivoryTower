@@ -2,14 +2,18 @@
 // We suggest you to commit this file into source control
 // Read more: https://github.com/vuejs/vue-next/pull/3399
 
-declare module "@vue/runtime-core" {
+declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    BaseHeader: typeof import("./src/components/BaseHeader/BaseHeader.vue")["default"];
-    RouterLink: typeof import("vue-router")["RouterLink"];
-    RouterView: typeof import("vue-router")["RouterView"];
-    VarButton: typeof import("@varlet/ui")["_ButtonComponent"];
+    BaseHeader: typeof import('./src/components/BaseHeader/BaseHeader.vue')['default']
+    BaseNavigation: typeof import('./src/components/BaseNavigation/BaseNavigation.vue')['default']
+    Navigation: typeof import('./src/components/Navigation/Navigation.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    VarButton: typeof import('@varlet/ui')['_ButtonComponent']
     VarChip: typeof import("@varlet/ui")["_ChipComponent"];
+    VarCol: typeof import('@varlet/ui')['_ColComponent']
+    VarRow: typeof import('@varlet/ui')['_RowComponent']
   }
 }
 
-export {};
+export { }

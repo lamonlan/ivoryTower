@@ -1,0 +1,32 @@
+.base-header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 83px;
+	padding: 0 10px;
+	border-bottom: 1px solid var(--custom-border);
+	.var-row {
+		height: 100%;
+		.var-col {
+			display: flex;
+			align-items: center;
+			height: 100%;
+		}
+	}
+	&__logo {
+		a {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			h1 {
+				font-size: 24px;
+			}
+		}
+	}
+	&__navigation {
+		justify-content: flex-end;
+	}
+	&__login {
+		justify-content: center;
+	}
+}
