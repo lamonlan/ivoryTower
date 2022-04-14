@@ -15,6 +15,7 @@ module.exports = {
 	},
 	rules: {
 		"@typescript-eslint/no-var-requires": 0,
+		"vue/no-setup-props-destructure": "off",
 	},
 	overrides: [
 		{
