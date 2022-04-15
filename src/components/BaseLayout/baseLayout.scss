@@ -1,0 +1,17 @@
+.base-layout {
+	position: relative;
+	display: flex;
+	height: calc(100vh - 83px);
+	&--sider {
+		overflow: auto;
+		position: sticky;
+		top: 0;
+		left: 0;
+		height: 100%;
+		border-right: 1px solid var(--custom-border);
+	}
+	&--content {
+		flex: 1;
+		overflow: auto;
+	}
+}

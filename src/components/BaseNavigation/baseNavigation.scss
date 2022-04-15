@@ -14,12 +14,12 @@
 				transition: all 0.3s;
 			}
 			&:hover {
-				color: var(--primary-color);
+				color: var(--color-primary);
 			}
 			&.router-link-active {
-				color: var(--primary-color);
+				color: var(--color-primary);
 				&::before {
-					background-color: var(--primary-color);
+					background-color: var(--color-primary);
 				}
 			}
 		}

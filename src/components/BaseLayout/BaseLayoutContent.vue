@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-	<p v-for="item in 100" :key="item">
-		{{ item }}
-	</p>
+	<main class="base-layout--content">
+		<slot />
+	</main>
 </template>
 
 <style scoped lang="scss">
-@import "./recentlyOpen.scss";
+@import "./baseLayout.scss";
 </style>
